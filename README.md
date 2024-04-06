@@ -1,12 +1,12 @@
 # shadowsocks-2022
 
-Shadowsocks 2022 improves upon the 2017 version of Shadowsocks, which introduced authenticated encryption with associated data (AEAD) encryption. The newest version addresses known vulnerabilities, drops obsolete cryptography, optimizes security and performance, and leaves room for future expansion.
+Shadowsocks 2022 improves upon the 2017 version of Shadowsocks. That version introduced authenticated encryption with associated data (AEAD) encryption. The newest version makes further improvements. It addresses known vulnerabilities, drops obsolete cryptography, optimizes security and performance, and leaves room for future expansion.
 
-Encrypted proxies such as Shadowsocks 2022 handle only web traffic (HTTP and HTTPS). They aren't meant to replace full VPNs. Their purpose is simply to bypass censorship that blocks certain websites or IP addresses. The censor sees only your traffic to the proxy server and cannot determine which website or IP address is your ultimate destination. Needless to say, your data itself is also encrypted.
+Encrypted proxies such as Shadowsocks 2022 handle only web traffic (HTTP and HTTPS). They aren't meant to replace full VPNs. Their purpose is simply to bypass censorship that is blocking certain websites or IP addresses. The censor sees only your traffic to and from the proxy server, and cannot determine what website or IP address you are ultimately accessing. Of course, your data itself is also encrypted and hidden from the censor.
 
 ## Debian/Ubuntu server
 
-You'll need to rent a virtual private server (VPS) or cloud compute instance. The server should run a recent version of Ubuntu or Debian. You need only a small server with, say, 1 GB or RAM. You can get this from a provider such as [Vultr](https://www.vultr.com), [BandwagonHost](https://bandwagonhost.com), or many others. If you don't already have a preferred VPS provider, ask for recommendations on [LowEndTalk](https://lowendtalk.com).
+You'll need to rent a virtual private server (VPS) or cloud compute instance. The server should run a recent version of Ubuntu or Debian. You need only a small server with, say, 1 GB of RAM. You can get this from a provider such as [Vultr](https://www.vultr.com), [BandwagonHost](https://bandwagonhost.com), or many others. If you don't already have a preferred VPS provider, ask for recommendations on [LowEndTalk](https://lowendtalk.com).
 
 SSH into your server. With macOS or Linux, you can SSH using the terminal emulator. On Windows 10 or 11, you can SSH with modern editions of Windows PowerShell. You'll need to know your server's IP address and root password.
 
