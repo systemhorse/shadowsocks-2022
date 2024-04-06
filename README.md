@@ -143,6 +143,8 @@ If Windows Defender Firewall pops up, select all networks, and click **Allow acc
 
 In the Sing-Box GUI, check the box for **System Proxy**.
 
+![Check the box for System Proxy](img/115.png)
+
 Select **Server** > **New profile**.
 
 ![Server new profile](img/111.png)
