@@ -151,11 +151,11 @@ Select **Server** > **New profile**.
 
 Add the new profile parameters:
 
-* Type `shadowsocks`
+* Type **Shadowsocks**
 * Name whatever you want
 * Address is your server IP address
 * Port `27403` (or whatever you changed it to)
-* Encryption `2022-blake3-aes-128-gcm`
+* Encryption **2022-blake3-aes-128-gcm**
 * Password `Q54xMLyzJeNIPuBmQdS1Rw==` (or whatever you changed it to)
 
 Click **OK** to save the new profile.
